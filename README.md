@@ -20,7 +20,7 @@ SECURITY GROUP - Security group for your ec2 instance to allow http traffic from
 
 EC2 INSTANCE - Creates the Ec2 instance with the resources already created. Required Atributes include: ami, instance type, key_name, tenancy, subnet-id, vpc_security_group_ids.
 
-OUTPUT - Output is set in our outut.tf file to output the public ip address of the instance we can run on our browser and view.
+OUTPUT - Output is set in our output.tf file to output the public ip address of the instance we can run on our browser and view.
 
 USERDATA - This allows to run commands in the instance after the instance has been provisioned. In this case we are installing and starting Apache2 to run on our instance.
 
