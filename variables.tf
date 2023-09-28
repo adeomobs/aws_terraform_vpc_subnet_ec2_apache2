@@ -32,7 +32,7 @@ variable "security_group_name" {
 
 variable "env_name" {
   description = "Name of Environment"
-  default     = "Bincom IAC"
+  default     = "IAC Infrastructure"
 }
 
 variable "region"{
